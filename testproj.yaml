@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: testproj
+  namespace: argocd
+spec:
+  project: default
+  source:
+    chart: testproj
+    repoURL: https://github.com/infa-hbalakrishnan/argo-test-proj.git
+    targetRevision: 0.1.0
+    helm:
+      releaseName: testproj
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: testproj

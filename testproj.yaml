@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: testproj
-    repoURL: https://github.com/infa-hbalakrishnan/argo-test-proj.git
+    repoURL: https://infa-hbalakrishnan.github.io/argo-test-proj/
     targetRevision: 0.1.0
     helm:
       releaseName: testproj

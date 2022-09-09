@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   testproj:
   - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2022-09-09T16:44:07.036053-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 35ddbefba09e17ca092dfb861bcf2cf865726bd797436fda8e9da29e81020366
+    name: testproj
+    type: application
+    urls:
+    - https://infa-hbalakrishnan.github.io/argo-test-proj/testproj-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-09-09T16:41:18.358445-04:00"
+    created: "2022-09-09T16:44:07.035362-04:00"
     description: A Helm chart for Kubernetes
     digest: 002e32f001fc98184030651ad03c5bdf9231039f76316310f4ff42e9ad39997f
     name: testproj
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://infa-hbalakrishnan.github.io/argo-test-proj/testproj-0.1.1.tgz
     version: 0.1.1
-generated: "2022-09-09T16:41:18.357633-04:00"
+generated: "2022-09-09T16:44:07.033073-04:00"

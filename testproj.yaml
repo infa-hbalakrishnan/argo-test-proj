@@ -8,7 +8,7 @@ spec:
   source:
     chart: testproj
     repoURL: https://infa-hbalakrishnan.github.io/argo-test-proj/
-    targetRevision: 0.1.1
+    targetRevision: 0.1.2
     helm:
       releaseName: testproj
   destination:
